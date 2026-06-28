@@ -2,7 +2,7 @@
 
 import { Heading } from "@/components/heading"
 import { MaxWidthWrapper } from "@/components/max-width-wrapper"
-import { GlassCard, NeoButton, CyberBackground } from "@/components/landing"
+import { GlassCard, ModernButton, CyberBackground } from "@/components/landing"
 import { client } from "@/lib/client"
 import { useUser } from "@clerk/nextjs"
 import { useMutation } from "@tanstack/react-query"
@@ -98,13 +98,13 @@ const Page = () => {
               </p>
 
               <div className="mt-8 w-full">
-                <NeoButton 
+                <ModernButton 
                   onClick={handleGetAccess} 
                   variant="primary"
                   className="w-full justify-center text-base py-3"
                 >
                   Get CronGuard
-                </NeoButton>
+                </ModernButton>
               </div>
               
               <p className="mt-4 sm:mt-6 text-xs leading-5 text-foreground/50 font-medium font-mono">
